@@ -1,0 +1,36 @@
+.profile-pic {
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.blog-icon {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.blog-head {
+  font-size: 20px;
+  text-align: center;
+}
+
+.profile-head {
+  display: flex;
+  align-items: center;
+}
+
+.blog-main-con {
+  padding: 20px;
+  font-family: Roboto;
+}
+
+.blog-desc {
+  color: #2f4f4f;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-main-con {
+    width: 90%;
+  }
+}
